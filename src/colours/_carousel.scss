@@ -1,0 +1,37 @@
+.carousel {
+  transform:translateX(25px);
+  .main {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    article {
+      // border: 1px solid green;
+      display:flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 15px;
+      height: 200px;
+      width: 225px;
+      background-color: #e3000c;
+      color: white;
+      transform:translateX(-125px);
+      hr {
+        width: 100%;
+        height: 4px;
+        background-color: white;
+      }
+    }
+  }
+}
+
+.carousel-main {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around
+}
