@@ -1,10 +1,11 @@
 {
-  "name": "a-prop-svcs",
+  "name": "alta-prop",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "emailjs-com": "2.6.4",
     "node-sass": "4.14.1",
     "node-sass-tilde-importer": "1.0.2",
     "react": "16.12.0",

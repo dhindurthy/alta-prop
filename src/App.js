@@ -12,6 +12,7 @@ import SecuredServices from "./routes/securedservices.js";
 import TrashOut from "./routes/trashout.js";
 import RemediationServices from "./routes/remediationservices.js";
 import Winterization from "./routes/winterization.js";
+import Landscaping from "./routes/landscaping.js";
 
 import About from "./routes/About.js";
 import Contact from "./routes/Contact.js";
@@ -119,6 +120,7 @@ export default class App extends React.Component {
             <Route path="/repairsandrehab" component={RepairsandRehab} />
             <Route path="/securedservices" component={SecuredServices} />
             <Route path="/trashout" component={TrashOut} />
+            <Route path="/landscaping" component={Landscaping} />
             <Route
               path="/remediationservices"
               component={RemediationServices}

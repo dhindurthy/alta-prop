@@ -1,6 +1,7 @@
 @import 'colours/_about.scss';
 @import 'colours/_carousel.scss';
 @import 'colours/_servicearea.scss';
+@import 'colours/_contact.scss';
 
 ul {
   list-style: none;
@@ -87,14 +88,14 @@ a{
     } 
   
   .menu-list {
-    height: 5rem;
+    height: 15rem;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
     z-index: 1;
-    top: 4.3rem;
+    top: 3.5rem;
     padding: 0.5rem;
     padding-top: 1.75rem;
     // opacity: 0;

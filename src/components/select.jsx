@@ -76,7 +76,7 @@ class Select extends React.Component {
           <ul className="menu-list">
             {this.props.field.options.map((item, index) => (
               <li key={item.label} value={item.value}>
-                <Link tabIndex="0" role="menuitem" to={this.props.field.value}>
+                <Link tabIndex="0" role="menuitem" to={item.value}>
                   {item.label}
                 </Link>
               </li>
