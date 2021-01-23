@@ -1,0 +1,23 @@
+.service-section {
+  margin-bottom: 3rem;
+}
+.service-heading {
+  color: #e3000c;
+}
+
+.service-subheading {
+  margin-top: 1rem;
+}
+
+.service-description {
+  margin-bottom: 3rem;
+}
+
+ul.snow-removal-list {
+  list-style: square inside;
+  display: flex;
+  flex-direction: column;
+  li{
+    margin-top: 1rem;
+  }
+}
