@@ -17,7 +17,7 @@
       margin-bottom: 1rem;
     }
     input:invalid, textarea:invalid {
-      border: 0.15rem solid red;
+      border: 0.15rem solid #e3000c;
     }
     input:valid , textarea:valid{
       border: 0.15rem solid black;

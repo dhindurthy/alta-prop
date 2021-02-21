@@ -17,16 +17,28 @@ export default class Contact extends React.Component {
     var template_id = "template_vlAfnQhW";
     var service_id = "default_service";
     var template_params = {
-      reply_to: "reply_to_value",
       from_name: "from_name_value",
       to_name: "to_name_value",
-      message_html: "message_html_value"
+      message_html: "message_html_value",
+      reply_to: "from_name_value"
     };
     emailjs.sendForm(service_id, template_id, "#contact-form");
     document.getElementById("contact-form").reset();
-    this.setState({
-      successMessage: "Your email has been sent!"
-    });
+    this.setState(
+      {
+        successMessage: "Your email has been sent!"
+      },
+      this.clearMessage()
+    );
+  }
+
+  clearMessage() {
+    let self = this;
+    setTimeout(function () {
+      self.setState({
+        successMessage: ""
+      });
+    }, 5000);
   }
 
   render() {
@@ -50,7 +62,7 @@ export default class Contact extends React.Component {
           <label>Email</label>
           <input
             type="email"
-            name="from_email"
+            name="reply_to"
             required
             onInvalid={(e) => {
               e.target.setCustomValidity("Please enter your Email ID.");
