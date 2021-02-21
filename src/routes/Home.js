@@ -38,7 +38,7 @@ class Home extends React.Component {
             banner="Proudly Serving Greater Chicago Since 2010"
             panelContent={(i, index) =>
               (index === 0 && (
-                <section style={{ backgroundColor: "purple" }}>
+                <section style={{ backgroundColor: "#e3000c" }}>
                   <img
                     width="533"
                     height="400"
@@ -54,7 +54,7 @@ class Home extends React.Component {
                 </section>
               )) ||
               (index === 1 && (
-                <section style={{ backgroundColor: "red" }}>
+                <section style={{ backgroundColor: "purple" }}>
                   <img
                     width="533"
                     height="400"
