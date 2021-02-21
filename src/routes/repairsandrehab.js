@@ -2,7 +2,7 @@ import React from "react";
 
 function RepairsandRehab(props) {
   return (
-    <section>
+    <section className="service-page">
       <section className="service-section">
         <h2 className="service-heading">
           INTERIOR /EXTERIOR MAINTENANCE & REPAIR
@@ -49,6 +49,49 @@ function RepairsandRehab(props) {
           </li>
         </ul>
       </section>
+      <div className="image-gallery">
+        <img
+          src="https://altapropertyservices.com/wp-content/uploads/2017/11/r1.jpg"
+          alt=""
+          width="800"
+          height="800"
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r2.jpg"
+          alt=""
+          width="800"
+          height="800"
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r3.jpg"
+          alt=""
+          width="800"
+          height="800"
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r4.jpg"
+          alt=""
+          width="800"
+          height="800"
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r5.jpg"
+          alt=""
+          width="800"
+          height="800"
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r6.jpg"
+          alt=""
+          width="800"
+          height="800"
+        />
+      </div>
     </section>
   );
 }

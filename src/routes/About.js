@@ -54,6 +54,14 @@ function About(props) {
         <span className="pres-name"> Ron Chuman </span> |{" "}
         <span className="comp-name">President, Alta Property Services</span>
       </h4>
+      <div className="contact-image">
+        <img
+          src="https://altapropertyservices.com/wp-content/uploads/2015/04/contactus2.jpg"
+          alt=""
+          width="600"
+          height="300"
+        />
+      </div>
     </section>
   );
 }

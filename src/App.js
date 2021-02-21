@@ -27,15 +27,15 @@ export default class App extends React.Component {
       menuData: [
         {
           value: "/home",
-          label: "Home"
+          label: "HOME"
         },
         {
           value: "/about",
-          label: "About"
+          label: "ABOUT"
         },
         {
           type: "dropdown",
-          label: "Services",
+          label: "SERVICES",
           value: "/services",
           options: [
             {
@@ -70,33 +70,33 @@ export default class App extends React.Component {
         },
         {
           value: "/area",
-          label: "Service Area"
+          label: "SERVICE AREA"
         },
         {
           value: "/contact",
-          label: "Contact Us"
+          label: "CONTACT US"
         },
         {
           value: "/login",
-          label: "Login"
+          label: "LOGIN"
         }
       ],
       footerData: [
         {
           value: "contact",
-          label: "Contact"
+          label: "CONTACT"
         },
         {
           value: "login",
-          label: "Login"
+          label: "LOGIN"
         },
         // {
         //   value: "team",
-        //   label: "Team"
+        //   label: "TEAM"
         // },
         {
           value: "careers",
-          label: "Careers"
+          label: "CAREERS"
         }
       ]
     };
@@ -104,10 +104,14 @@ export default class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="App container">
           <header className="header">
-            <Link className="logo" tabIndex="0" role="menuitem" to="/home">
-              <img alt="Alta Property Services Logo and Home" src="" />
+            <Link tabIndex="0" role="menuitem" to="/home">
+              <img
+                className="logo"
+                alt="Alta Property Services Logo and Home"
+                src="https://altapropertyservices.com/wp-content/uploads/2017/08/LogoTransparent.png"
+              />
             </Link>
             <Menu menuData={this.state.menuData} />
           </header>
@@ -133,7 +137,6 @@ export default class App extends React.Component {
             <Route path="/careers" component={Careers} />
             <Route path="/" exact={true} component={Home} />
           </main>
-
           <footer className="footer">
             <h4 tabIndex="0" className="question-phone">
               Have a question about our services?{" "}

@@ -2,7 +2,7 @@ import React from "react";
 
 function RemediationServices(props) {
   return (
-    <section>
+    <section className="service-page">
       <h2 className="service-heading">REMEDIATION SERVICES</h2>
       <p className="service-description">
         We offer fast, reliable remediation services for water, mold, smoke and
@@ -23,6 +23,37 @@ function RemediationServices(props) {
         <li>Mitigation and structure drying</li>
         <li>Reconstructing services</li>
       </ul>
+      <div className="image-gallery">
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R7.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R6.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R5.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R4.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R3.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R1.jpg"
+          alt=""
+        />
+      </div>
     </section>
   );
 }

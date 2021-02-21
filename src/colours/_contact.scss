@@ -1,8 +1,9 @@
 .email-form {
+  width: 75%;
   #contact-form{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     justify-items: flex-end;
     label{
       width: 50%;
@@ -28,5 +29,12 @@
   }
   .success-message {
     color: green;
+  }
+
+  .contact-image {
+    width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 }

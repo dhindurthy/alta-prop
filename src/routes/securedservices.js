@@ -2,7 +2,7 @@ import React from "react";
 
 function SecuredServices(props) {
   return (
-    <section>
+    <section className="service-page">
       <h2 className="service-heading">SECURED SERVICES</h2>
       <p className="service-description">
         We specialize in preservation services that professionally secure,
@@ -18,6 +18,37 @@ function SecuredServices(props) {
         <li>Real estate lock boxes installed</li>
         <li>24/7 Emergency Service</li>
       </ul>
+      <div className="image-gallery">
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/1.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/3.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/7.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/6.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/2.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/8.jpg"
+          alt=""
+        />
+      </div>
     </section>
   );
 }

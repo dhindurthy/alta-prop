@@ -32,7 +32,11 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="email-form">
-        <h4>Send an Email</h4>
+        <h2>Contact Us</h2>
+        <h4>
+          Have a question or comment? Need a quote? Message us and we will get
+          right back to you.
+        </h4>
         <form id="contact-form" onSubmit={this._onSubmit.bind(this)}>
           <label>Name</label>
           <input
@@ -76,6 +80,14 @@ export default class Contact extends React.Component {
           <input type="submit" value="Send Email" />
         </form>
         <h3 className="success-message">{this.state.successMessage}</h3>
+        <div className="contact-image">
+          <img
+            src="https://altapropertyservices.com/wp-content/uploads/2017/12/M1web.jpg"
+            alt=""
+            width="800"
+            height="400"
+          />
+        </div>
       </div>
     );
   }

@@ -14,7 +14,7 @@ class Carousel extends React.Component {
   }
   buttonClick = (type) => {
     let activeKey = this.state.activeKey;
-    let length = this.props.todos.length;
+    let length = this.props.sliders.length;
     if (type === "next" && activeKey < length - 1) {
       this.setState({
         isPrevDisabled: false,
@@ -47,27 +47,29 @@ class Carousel extends React.Component {
 
   render(props) {
     return (
-      <section className="carousel">
-        <section className="main">
-          <ul id={this.props.id}>
-            {this.props.todos.map(
-              (i, index) =>
-                this.state.activeKey === index && (
-                  <li key={index} className={this.state.animationClass}>
-                    {this.props.panelContent(i, index)}
-                    {/* <p>Looped content: {i.name}</p> */}
-                  </li>
-                )
+      <section>
+        <section className="carousel">
+          <section className="main">
+            <ul className="carousel-list" id={this.props.id}>
+              {this.props.sliders &&
+                this.props.sliders.map(
+                  (i, index) =>
+                    this.state.activeKey === index && (
+                      <li key={index} className={this.state.animationClass}>
+                        {this.props.panelContent(i, index)}
+                        {/* <p>Looped content: {i.name}</p> */}
+                      </li>
+                    )
+                )}
+            </ul>
+            {this.props.showBanner && (
+              <article>
+                <hr />
+                <h3 tabIndex="0">{this.props.banner}</h3>
+                <hr />
+              </article>
             )}
-          </ul>
-          <article>
-            <hr />
-            <h3 tabIndex="0">
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam
-              corporis
-            </h3>
-            <hr />
-          </article>
+          </section>
         </section>
         <div role="presentation" className="slider-buttons">
           <Button

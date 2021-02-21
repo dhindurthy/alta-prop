@@ -10,6 +10,10 @@ function Login(props) {
           <script type="text/javascript">ppwLoginForm();</script>
         </div>
       </div>
+      <img
+        alt=""
+        src="https://altapropertyservices.com/wp-content/uploads/2017/08/LogoTransparent.png"
+      />
     </section>
   );
 }

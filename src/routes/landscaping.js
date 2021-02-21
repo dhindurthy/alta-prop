@@ -2,7 +2,7 @@ import React from "react";
 
 function Landscaping(props) {
   return (
-    <section>
+    <section className="service-page">
       <section className="service-section">
         <h2 className="service-heading">LANDSCAPING</h2>
         <p className="service-description">
@@ -36,6 +36,47 @@ function Landscaping(props) {
           <li>Spring/fall cleanup</li>
         </ul>
       </section>
+      <div className="image-gallery">
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/1-3.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/2-3.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/3-2.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/4-2.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/7-2.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/9.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/10.jpg"
+          alt=""
+        />
+
+        <img
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/12.jpg"
+          alt=""
+        />
+      </div>
     </section>
   );
 }
