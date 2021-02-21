@@ -124,22 +124,33 @@ class Home extends React.Component {
                   style={{
                     backgroundColor: "white",
                     display: "flex",
-                    alignItems: "flex-start"
+                    alignItems: "flex-start",
+                    width: "min-content"
                   }}
                   className="picture-frame"
                 >
-                  <img
-                    width="533"
-                    height="251"
-                    src="https://altapropertyservices.com/wp-content/uploads/2018/11/drilling-machine-guy-e1613935293115.jpg"
-                    alt="somethign"
-                  />
-                  <img
-                    width="359"
-                    height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/trash-claean_matchedsize.png"
-                    alt="somethign"
-                  />
+                  <div>
+                    <img
+                      width="533"
+                      height="251"
+                      src="https://altapropertyservices.com/wp-content/uploads/2018/11/drilling-machine-guy-e1613935293115.jpg"
+                      alt="somethign"
+                    />
+                    <img
+                      width="533"
+                      height="150"
+                      src="https://altapropertyservices.com/wp-content/uploads/2021/02/secured_matchedsize.png"
+                      alt="somethign"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      width="359"
+                      height="400"
+                      src="https://altapropertyservices.com/wp-content/uploads/2021/02/trash-claean_matchedsize.png"
+                      alt="somethign"
+                    />
+                  </div>
                 </section>
               ))
             }

@@ -1,4 +1,5 @@
 .about-page {
+  // font-family: 'Franklin Gothic Medium', 'Helevetica', sans-serif;
   width: 75%;
   h3, .pres-name{
     color: #e3000c;
@@ -11,5 +12,9 @@
   .comp-name{
     color: black;
     font-size: 0.85rem;
+  }
+  .contact-image{
+    display: flex;
+    justify-content: center;
   }
 }
