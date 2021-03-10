@@ -17,6 +17,7 @@ import Landscaping from "./routes/landscaping.js";
 import About from "./routes/About.js";
 import Contact from "./routes/Contact.js";
 import Login from "./routes/Login.js";
+// import LoginForm from "./routes/LoginForm.js";
 import Careers from "./routes/careers.js";
 import ServiceArea from "./routes/ServiceArea.js";
 
@@ -134,6 +135,7 @@ export default class App extends React.Component {
             <Route path="/area" component={ServiceArea} />
             <Route path="/contact" component={Contact} />
             <Route path="/login" component={Login} />
+            {/* <Route path="/loginform" component={LoginForm} /> */}
             <Route path="/careers" component={Careers} />
             <Route path="/" exact={true} component={Home} />
           </main>

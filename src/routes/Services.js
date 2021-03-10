@@ -27,13 +27,13 @@ function Services(props) {
           now one of Chicago’s fastest growing commercial and residential
           multi-service providers.
         </p>
-        <Carousel
+        {/* <Carousel
           leftButton="<"
           rightButton=">"
           showBanner={false}
           sliders={articles}
           textBetweenButtons={(activeKey) => (
-            <span>{/* {activeKey + 1} de {this.state.articles.length} */}</span>
+            <span></span>
           )}
           banner="Established and proudly serving since 2001"
           panelContent={(i, index) =>
@@ -97,7 +97,7 @@ function Services(props) {
               </section>
             )
           }
-        />
+        /> */}
         <p className="service-description">
           Alta Property Services began with a small crew mowing lawns for REO
           and REI distressed properties. Soon our customers, appreciating our
