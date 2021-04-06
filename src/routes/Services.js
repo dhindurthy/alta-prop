@@ -1,16 +1,16 @@
 import React from "react";
-import Carousel from "../components/carousel.jsx";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import Carousel from "../components/carousel.jsx";
+import { BrowserRouter as Link } from "react-router-dom";
 
 function Services(props) {
-  let articles = [
-    { name: "donkey" },
-    { name: "buffalo" },
-    { name: "pig" },
-    { name: "cow" },
-    { name: "sheep" },
-    { name: "monkey" }
-  ];
+  // let articles = [
+  //   { name: "donkey" },
+  //   { name: "buffalo" },
+  //   { name: "pig" },
+  //   { name: "cow" },
+  //   { name: "sheep" },
+  //   { name: "monkey" }
+  // ];
   return (
     <section className="service-page">
       <section className="service-section">

@@ -16,12 +16,12 @@ export default class Contact extends React.Component {
     event.preventDefault();
     var template_id = "template_vlAfnQhW";
     var service_id = "default_service";
-    var template_params = {
-      from_name: "from_name_value",
-      to_name: "to_name_value",
-      message_html: "message_html_value",
-      reply_to: "from_name_value"
-    };
+    // var template_params = {
+    //   from_name: "from_name_value",
+    //   to_name: "to_name_value",
+    //   message_html: "message_html_value",
+    //   reply_to: "from_name_value"
+    // };
     emailjs.sendForm(service_id, template_id, "#contact-form");
     document.getElementById("contact-form").reset();
     this.setState(
@@ -73,7 +73,7 @@ export default class Contact extends React.Component {
             type="number"
             name="contact_number"
             required
-            minlength="10"
+            minLength="10"
             onInvalid={(e) => {
               e.target.setCustomValidity("Please enter your Phone Number.");
             }}

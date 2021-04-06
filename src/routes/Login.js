@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 // import LoginForm from "../components/loginform.jsx";
 class Login extends React.Component {
   constructor(props) {
@@ -22,11 +22,11 @@ class Login extends React.Component {
     // );
   }
   querySt(ji) {
-    hu = window.location.search.substring(1);
-    gy = hu.split("&");
-    for (i = 0; i < gy.length; i++) {
-      ft = gy[i].split("=");
-      if (ft[0] == ji) {
+    let hu = window.location.search.substring(1);
+    let gy = hu.split("&");
+    for (let i = 0; i < gy.length; i++) {
+      let ft = gy[i].split("=");
+      if (ft[0] === ji) {
         return ft[1];
       }
     }
@@ -41,10 +41,10 @@ class Login extends React.Component {
     }
     var ppw_error = this.querySt("ppw_error");
     var ppw_username = this.querySt("ppw_username");
-    if (ppw_error == false) {
+    if (ppw_error === false) {
       ppw_error = "";
     }
-    if (ppw_username == false) {
+    if (ppw_username === false) {
       ppw_username = "";
     }
     this.setState({
