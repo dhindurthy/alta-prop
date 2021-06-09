@@ -1,7 +1,8 @@
 import React from "react";
 // import Carousel from "../components/carousel.jsx";
-import { BrowserRouter as Link } from "react-router-dom";
+import { useHistory, BrowserRouter as Link } from "react-router-dom";
 
+// import {  } from "react-router-dom";
 function Services(props) {
   // let articles = [
   //   { name: "donkey" },
@@ -11,6 +12,8 @@ function Services(props) {
   //   { name: "sheep" },
   //   { name: "monkey" }
   // ];
+  const history = useHistory();
+  const handleClick = (page) => history.push(page);
   return (
     <section className="service-page">
       <section className="service-section">
@@ -112,42 +115,56 @@ function Services(props) {
         <div className="image-gallery">
           <Link tabIndex="0" role="menuitem" to="/repairsandrehab">
             <img
+              className="navigable-image"
+              onClick={() => handleClick("/repairsandrehab")}
               src="https://altapropertyservices.com/wp/wp-content/uploads/2017/09/Repairs-Rehabs.jpg"
               alt=""
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/securedservices">
             <img
+              className="navigable-image"
+              onClick={() => handleClick("/securedservices")}
               src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Secured.jpg"
               alt=""
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/trashout">
             <img
+              className="navigable-image"
+              onClick={() => handleClick("/trashout")}
               src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Trash-1.jpg"
               alt=""
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/remediationservices">
             <img
+              className="navigable-image"
+              onClick={() => handleClick("/remediationservices")}
               src="https://altapropertyservices.com/wp/wp-content/uploads/2017/09/Remdiations.jpg"
               alt=""
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/winterization">
             <img
+              className="navigable-image"
+              onClick={() => handleClick("/winterization")}
               src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Winter.jpg"
               alt=""
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/landscaping">
             <img
+              className="navigable-image"
+              onClick={() => handleClick("/landscaping")}
               src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Land.jpg"
               alt=""
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/snowremoval">
             <img
+              className="navigable-image"
+              onClick={() => handleClick("/snowremoval")}
               src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Snow.jpg"
               alt=""
             />

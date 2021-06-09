@@ -38,83 +38,83 @@ class Home extends React.Component {
             banner="Proudly Serving Greater Chicago Since 2010"
             panelContent={(i, index) =>
               (index === 0 && (
-                <section style={{ backgroundColor: "#e3000c" }}>
+                <section>
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/Snow_plow-matchedsize.png"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/Snow_plow-matchedsize.png"
                     alt="snow-plough"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/winterixzed_matchedsize.png"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/winterixzed_matchedsize.png"
                     alt="winterized"
                   />
                 </section>
               )) ||
               (index === 1 && (
-                <section style={{ backgroundColor: "purple" }}>
+                <section>
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/FireDeptweb.jpg"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/FireDeptweb.jpg"
                     alt="fire-dept"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/maintenace_matchedsize.png"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/maintenace_matchedsize.png"
                     alt="maintenance"
                   />
                 </section>
               )) ||
               (index === 2 && (
-                <section style={{ backgroundColor: "yellow" }}>
+                <section>
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/boardup-side-houseCleanUp.jpg"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/boardup-side-houseCleanUp.jpg"
                     alt="boardup"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/flowerbed-matchedsize.png"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/flowerbed-matchedsize.png"
                     alt="flowerbed"
                   />
                   {/*  */}
                 </section>
               )) ||
               (index === 3 && (
-                <section style={{ backgroundColor: "orange" }}>
+                <section>
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/Mold-Remediation.jpg"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/Mold-Remediation.jpg"
                     alt="mold remedy"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/017.jpg"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/017.jpg"
                     alt="trashout"
                   />
                   {/* /*/}
                 </section>
               )) ||
               (index === 4 && (
-                <section style={{ backgroundColor: "green" }}>
+                <section>
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/septic-drain-sewer-drain-backups-1024x768-1.jpg"
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/septic-drain-sewer-drain-backups-1024x768-1.jpg"
                     alt="drain clean"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp-content/uploads/2021/02/powerwash_matchedsize.png "
+                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/powerwash_matchedsize.png "
                     alt="powerwash"
                   />
                 </section>
@@ -133,13 +133,13 @@ class Home extends React.Component {
                     <img
                       width="533"
                       height="251"
-                      src="https://altapropertyservices.com/wp-content/uploads/2018/11/drilling-machine-guy-e1613935293115.jpg"
+                      src="https://altapropertyservices.com/wp/wp-content/uploads/2018/11/drilling-machine-guy-e1613935293115.jpg"
                       alt="somethign"
                     />
                     <img
                       width="533"
                       height="150"
-                      src="https://altapropertyservices.com/wp-content/uploads/2021/02/secured_matchedsize.png"
+                      src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/secured_matchedsize.png"
                       alt="somethign"
                     />
                   </div>
@@ -147,7 +147,7 @@ class Home extends React.Component {
                     <img
                       width="359"
                       height="400"
-                      src="https://altapropertyservices.com/wp-content/uploads/2021/02/trash-claean_matchedsize.png"
+                      src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/trash-claean_matchedsize.png"
                       alt="somethign"
                     />
                   </div>

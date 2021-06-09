@@ -56,7 +56,7 @@ function About(props) {
       </h4>
       <div className="contact-image">
         <img
-          src="https://altapropertyservices.com/wp-content/uploads/2015/04/contactus2.jpg"
+          src="https://altapropertyservices.com/wp/wp-content/uploads/2015/04/contactus2.jpg"
           alt=""
           width="600"
           height="300"
