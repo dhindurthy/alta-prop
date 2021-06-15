@@ -20,32 +20,32 @@ function SecuredServices(props) {
       </ul>
       <div className="image-gallery">
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/1.jpg"
+          src="images/1.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/3.jpg"
+          src="images/3.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/7.jpg"
+          src="images/7.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/6.jpg"
+          src="images/6.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/2.jpg"
+          src="images/2.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/8.jpg"
+          src="images/8.jpg"
           alt=""
         />
       </div>

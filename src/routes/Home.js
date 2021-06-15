@@ -42,13 +42,13 @@ class Home extends React.Component {
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/Snow_plow-matchedsize.png"
+                    src="images/Snow_plow-matchedsize.png"
                     alt="snow-plough"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/winterixzed_matchedsize.png"
+                    src="images/winterixzed_matchedsize.png"
                     alt="winterized"
                   />
                 </section>
@@ -58,13 +58,13 @@ class Home extends React.Component {
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/FireDeptweb.jpg"
+                    src="images/FireDeptweb.jpg"
                     alt="fire-dept"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/maintenace_matchedsize.png"
+                    src="images/maintenace_matchedsize.jpg"
                     alt="maintenance"
                   />
                 </section>
@@ -74,13 +74,13 @@ class Home extends React.Component {
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/boardup-side-houseCleanUp.jpg"
+                    src="images/boardup-side-houseCleanUp.jpg"
                     alt="boardup"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/flowerbed-matchedsize.png"
+                    src="images/flowerbed-matchedsize.jpg"
                     alt="flowerbed"
                   />
                   {/*  */}
@@ -91,13 +91,13 @@ class Home extends React.Component {
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/Mold-Remediation.jpg"
+                    src="images/Mold-Remediation.jpg"
                     alt="mold remedy"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/017.jpg"
+                    src="images/trashout.jpg"
                     alt="trashout"
                   />
                   {/* /*/}
@@ -108,13 +108,13 @@ class Home extends React.Component {
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/septic-drain-sewer-drain-backups-1024x768-1.jpg"
+                    src="images/septic-drain-sewer-drain-backups-1024x768-1.jpg"
                     alt="drain clean"
                   />
                   <img
                     width="533"
                     height="400"
-                    src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/powerwash_matchedsize.png "
+                    src="images/powerwash_matchedsize.jpg"
                     alt="powerwash"
                   />
                 </section>
@@ -131,23 +131,14 @@ class Home extends React.Component {
                 >
                   <div>
                     <img
-                      width="533"
-                      height="251"
-                      src="https://altapropertyservices.com/wp/wp-content/uploads/2018/11/drilling-machine-guy-e1613935293115.jpg"
+                      src="images/drilling-machine-guy-e1613935293115.jpg"
                       alt="somethign"
                     />
-                    <img
-                      width="533"
-                      height="150"
-                      src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/secured_matchedsize.png"
-                      alt="somethign"
-                    />
+                    
                   </div>
                   <div>
                     <img
-                      width="359"
-                      height="400"
-                      src="https://altapropertyservices.com/wp/wp-content/uploads/2021/02/trash-claean_matchedsize.png"
+                      src="images/trash-claean_matchedsize.jpg"
                       alt="somethign"
                     />
                   </div>

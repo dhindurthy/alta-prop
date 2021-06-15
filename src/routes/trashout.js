@@ -20,32 +20,32 @@ function TrashOut(props) {
       </ul>
       <div className="image-gallery">
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/1-1.jpg"
+          src="images/1-1.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/2-1.jpg"
+          src="images/2-1.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/4.jpg"
+          src="images/4.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/6-1.jpg"
+          src="images/6-1.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/7-1.jpg"
+          src="images/7-1.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/8-1.jpg"
+          src="images/8-1.jpg"
           alt=""
         />
       </div>

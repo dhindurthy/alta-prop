@@ -111,7 +111,7 @@ export default class App extends React.Component {
               <img
                 className="logo"
                 alt="Alta Property Services Logo and Home"
-                src="https://altapropertyservices.com/wp/wp-content/uploads/2017/08/LogoTransparent.png"
+                src="images/LogoTransparent.png"
               />
             </Link>
             <Menu menuData={this.state.menuData} />

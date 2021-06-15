@@ -24,32 +24,32 @@ function Winterization(props) {
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/1-2.jpg"
+          src="images/1-2.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/5.jpg"
+          src="images/5.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/4-1.jpg"
+          src="images/4-1.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/Comp-3-0000000.jpg"
+          src="images/Comp-3-0000000.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/3-1.jpg"
+          src="images/3-1.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/2-2.jpg"
+          src="images/2-2.jpg"
           alt=""
         />
       </div>

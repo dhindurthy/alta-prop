@@ -20,56 +20,56 @@ function SnowRemoval(props) {
 
       <div className="image-gallery">
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/8-2.jpg"
+          src="images/8-2.jpg"
           alt=""
           width="250"
           height="250"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/5-1.jpg"
+          src="images/5-1.jpg"
           alt=""
           width="250"
           height="250"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/4-3.jpg"
+          src="images/4-3.jpg"
           alt=""
           width="250"
           height="250"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/2-4.jpg"
+          src="images/2-4.jpg"
           alt=""
           width="250"
           height="250"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/3-3.jpg"
+          src="images/3-3.jpg"
           alt=""
           width="250"
           height="250"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/7-3.jpg"
+          src="images/7-3.jpg"
           alt=""
           width="250"
           height="250"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/6-2.jpg"
+          src="images/6-2.jpg"
           alt=""
           width="250"
           height="250"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/1-4.jpg"
+          src="images/1-4.jpg"
           alt=""
           width="250"
           height="250"

@@ -117,7 +117,7 @@ function Services(props) {
             <img
               className="navigable-image"
               onClick={() => handleClick("/repairsandrehab")}
-              src="https://altapropertyservices.com/wp/wp-content/uploads/2017/09/Repairs-Rehabs.jpg"
+              src="images/Repairs-Rehabs.jpg"
               alt=""
             />
           </Link>
@@ -125,7 +125,7 @@ function Services(props) {
             <img
               className="navigable-image"
               onClick={() => handleClick("/securedservices")}
-              src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Secured.jpg"
+              src="images/Secured.jpg"
               alt=""
             />
           </Link>
@@ -133,7 +133,7 @@ function Services(props) {
             <img
               className="navigable-image"
               onClick={() => handleClick("/trashout")}
-              src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Trash-1.jpg"
+              src="images/Trash-1.jpg"
               alt=""
             />
           </Link>
@@ -141,7 +141,7 @@ function Services(props) {
             <img
               className="navigable-image"
               onClick={() => handleClick("/remediationservices")}
-              src="https://altapropertyservices.com/wp/wp-content/uploads/2017/09/Remdiations.jpg"
+              src="images/Remdiations.jpg"
               alt=""
             />
           </Link>
@@ -149,7 +149,7 @@ function Services(props) {
             <img
               className="navigable-image"
               onClick={() => handleClick("/winterization")}
-              src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Winter.jpg"
+              src="images/Winter.jpg"
               alt=""
             />
           </Link>
@@ -157,7 +157,7 @@ function Services(props) {
             <img
               className="navigable-image"
               onClick={() => handleClick("/landscaping")}
-              src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Land.jpg"
+              src="images/Land.jpg"
               alt=""
             />
           </Link>
@@ -165,7 +165,7 @@ function Services(props) {
             <img
               className="navigable-image"
               onClick={() => handleClick("/snowremoval")}
-              src="https://altapropertyservices.com/wp/wp-content/uploads/2015/11/Snow.jpg"
+              src="images/Snow.jpg"
               alt=""
             />
           </Link>

@@ -94,7 +94,7 @@ export default class Contact extends React.Component {
         <h3 className="success-message">{this.state.successMessage}</h3>
         <div className="contact-image">
           <img
-            src="https://altapropertyservices.com/wp/wp-content/uploads/2017/12/M1web.jpg"
+            src="images/M1web.jpg"
             alt=""
             width="800"
             height="400"

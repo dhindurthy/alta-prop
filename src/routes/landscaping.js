@@ -38,42 +38,42 @@ function Landscaping(props) {
       </section>
       <div className="image-gallery">
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/1-3.jpg"
+          src="images/1-3.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/2-3.jpg"
+          src="images/2-3.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/3-2.jpg"
+          src="images/3-2.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/4-2.jpg"
+          src="images/4-2.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/7-2.jpg"
+          src="images/7-2.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/9.jpg"
+          src="images/9.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/10.jpg"
+          src="images/10.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/12.jpg"
+          src="images/12.jpg"
           alt=""
         />
       </div>

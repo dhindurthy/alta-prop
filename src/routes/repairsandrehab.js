@@ -51,42 +51,42 @@ function RepairsandRehab(props) {
       </section>
       <div className="image-gallery">
         <img
-          src="https://altapropertyservices.com/wp-content/uploads/2017/11/r1.jpg"
+          src="images/r1.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r2.jpg"
+          src="images/r2.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r3.jpg"
+          src="images/r3.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r4.jpg"
+          src="images/r4.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r5.jpg"
+          src="images/r5.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/r6.jpg"
+          src="images/r6.jpg"
           alt=""
           width="800"
           height="800"

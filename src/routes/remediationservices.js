@@ -25,32 +25,32 @@ function RemediationServices(props) {
       </ul>
       <div className="image-gallery">
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R7.jpg"
+          src="images/R7.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R6.jpg"
+          src="images/R6.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R5.jpg"
+          src="images/R5.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R4.jpg"
+          src="images/R4.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R3.jpg"
+          src="images/R3.jpg"
           alt=""
         />
 
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2017/11/R1.jpg"
+          src="images/R1.jpg"
           alt=""
         />
       </div>
