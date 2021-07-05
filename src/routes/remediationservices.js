@@ -50,7 +50,7 @@ function RemediationServices(props) {
         />
 
         <img
-          src="images/R1.jpg"
+          src="images/R1-768x768.jpg"
           alt=""
         />
       </div>

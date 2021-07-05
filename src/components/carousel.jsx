@@ -45,6 +45,35 @@ class Carousel extends React.Component {
     this.setState({ activeKey: activeKey });
   };
 
+  componentDidUpdate(){
+    let activeKey = this.state.activeKey;
+    let length = this.props.sliders.length;
+    if(activeKey < length-1){
+      setTimeout(
+        function() {
+          this.setState({
+            activeKey: activeKey+1,
+            isPrevDisabled: false,
+          });
+        }
+        .bind(this),
+        3500
+      );
+    } else {
+      activeKey = 0;
+      setTimeout(
+        function() {
+          this.setState({
+            activeKey: activeKey,
+            isPrevDisabled: true,
+          });
+        }
+        .bind(this),
+        3500
+      );
+    }
+  }
+
   render(props) {
     return (
       <section>

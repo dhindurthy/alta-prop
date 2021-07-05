@@ -19,7 +19,7 @@ function Winterization(props) {
       </ul>
       <div className="image-gallery">
         <img
-          src="https://altapropertyservices.com/wp/wp-content/uploads/2018/11/Winterized-Trailer-with-Banner-e1542236458632.jpg"
+          src="images/winterixzed_matchedsize.png"
           alt=""
         />
 

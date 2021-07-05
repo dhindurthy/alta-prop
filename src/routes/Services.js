@@ -20,16 +20,6 @@ function Services(props) {
         <h2 className="service-heading">
           WE CAN PROVIDE ALL YOUR PROPERTY SERVICES
         </h2>
-        <p>
-          Alta Property Services began with a small crew mowing lawns for REO
-          and REI distressed properties. Soon our customers, appreciating our
-          can-do attitude and attention to detail, asked us to take on larger
-          jobs and to provide more services such as secured services,
-          maintenance, landscaping, and remodeling. Today, after years of
-          delivering quality property services to satisfied customers, Alta is
-          now one of Chicago’s fastest growing commercial and residential
-          multi-service providers.
-        </p>
         {/* <Carousel
           leftButton="<"
           rightButton=">"

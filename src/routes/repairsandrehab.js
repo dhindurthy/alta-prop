@@ -65,28 +65,28 @@ function RepairsandRehab(props) {
         />
 
         <img
-          src="images/r3.jpg"
+          src="images/r3-360x360.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="images/r4.jpg"
+          src="images/r4-360x360.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="images/r5.jpg"
+          src="images/r5-768x768.jpg"
           alt=""
           width="800"
           height="800"
         />
 
         <img
-          src="images/r6.jpg"
+          src="images/r6-768x768.jpg"
           alt=""
           width="800"
           height="800"
