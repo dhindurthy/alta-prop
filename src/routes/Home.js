@@ -16,14 +16,19 @@ class Home extends React.Component {
         { name: "buffalo" },
         { name: "pig" },
         { name: "cow" },
-        { name: "sheep" },
-        { name: "monkey" }
+        { name: "sheep" }
       ]
     });
   }
   render() {
     return (
-      <section>
+      <section className="home-page">
+        <head>
+          <title>All Property Services at Alta Property Services</title>
+          <meta name="robots" content="index, follow" />
+          <meta name="description" content="ALTA Property Services offers all kinfd of services like Landscaping, Snow Removal, Repairs and Rehab, Trash Out, Secured
+            Services, Winterization"/>
+        </head>
         <section className="body">
           <Carousel
             leftButton="<"
@@ -55,11 +60,11 @@ class Home extends React.Component {
               )) ||
               (index === 1 && (
                 <section>
-                  <img
+                   <img
                     width="533"
                     height="400"
-                    src="images/FireDeptweb.jpg"
-                    alt="fire-dept"
+                    src="images/trashout.jpg"
+                    alt="trashout"
                   />
                   <img
                     width="533"
@@ -85,25 +90,8 @@ class Home extends React.Component {
                   />
                   {/*  */}
                 </section>
-              )) ||
+              ))  ||
               (index === 3 && (
-                <section>
-                  <img
-                    width="533"
-                    height="400"
-                    src="images/Mold-Remediation.jpg"
-                    alt="mold remedy"
-                  />
-                  <img
-                    width="533"
-                    height="400"
-                    src="images/trashout.jpg"
-                    alt="trashout"
-                  />
-                  {/* /*/}
-                </section>
-              )) ||
-              (index === 4 && (
                 <section>
                   <img
                     width="533"
@@ -119,7 +107,7 @@ class Home extends React.Component {
                   />
                 </section>
               )) ||
-              (index === 5 && (
+              (index === 4 && (
                 <section
                   style={{
                     backgroundColor: "white",
@@ -147,7 +135,6 @@ class Home extends React.Component {
             }
           />
         </section>
-
         <h2 className="h2-content" tabIndex="0">
           <hr />
           ALTA Property Services
@@ -165,7 +152,33 @@ class Home extends React.Component {
             Below are some services we provide.
             <br />
             Landscaping, Snow Removal, Repairs and Rehab, Trash Out, Secured
-            Services, Remediation Services, Winterization
+            Services, Winterization
+          </article>
+          <article className="home-page-images">
+            {/* <img
+              width="202"
+              height="153"
+              src="images/I-Hire-Veterans.png"
+              alt="veterans"
+            />
+            <img
+              width="110"
+              height="33"
+              src="images/osha.png"
+              alt="osha"
+            /> */}
+            <img
+              width="400"
+              height="153"
+              src="images/IICRC-Logo-Best-for-Digital.png"
+              alt="IIRC"
+            />
+            <img
+              width="245"
+              height="153"
+              src="images/EPA_Leadsafe_Logo.png"
+              alt="IIRC"
+            />
           </article>
         </section>
       </section>

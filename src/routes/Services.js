@@ -16,6 +16,12 @@ function Services(props) {
   const handleClick = (page) => history.push(page);
   return (
     <section className="service-page">
+      <head>
+        <title>All Property Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="ALTA Property Services offers all kinfd of services like Landscaping, Snow Removal, Repairs and Rehab, Trash Out, Secured
+          Services, Winterization"/>
+      </head>
       <section className="service-section">
         <h2 className="service-heading">
           WE CAN PROVIDE ALL YOUR PROPERTY SERVICES
@@ -124,14 +130,6 @@ function Services(props) {
               className="navigable-image"
               onClick={() => handleClick("/trashout")}
               src="images/Trash-1.jpg"
-              alt=""
-            />
-          </Link>
-          <Link tabIndex="0" role="menuitem" to="/remediationservices">
-            <img
-              className="navigable-image"
-              onClick={() => handleClick("/remediationservices")}
-              src="images/Remdiations.jpg"
               alt=""
             />
           </Link>

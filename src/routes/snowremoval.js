@@ -3,6 +3,11 @@ import React from "react";
 function SnowRemoval(props) {
   return (
     <section className="service-page">
+      <head>
+        <title>Snow Removal Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content=""/>
+      </head>
       <h2 className="service-heading">Snow Removal</h2>
       <p className="service-description">
         We know how snow can cripple a day’s operation. Fast turnaround for your

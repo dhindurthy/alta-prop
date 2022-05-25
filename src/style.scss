@@ -48,38 +48,65 @@ a{
   
 }
 
+.burger-menu {
+  background-color: #f7e9e9;
+  transform: rotate(90deg);
+  padding: 2px;
+}
+
 @media only screen and (min-width: 600px) {//600px and above
-.container {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 100%;
-  grid-template-rows: 11% 81.25% 6%;
-  grid-template-areas:
-    "header header header header header"
-    "main main main main main"
-    "footer footer footer footer footer";
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 11% 81.25% 6%;
+    grid-template-areas:
+      "header header header header header"
+      "main main main main main"
+      "footer footer footer footer footer";
 
-  justify-content: center;
-}
+    justify-content: center;
+  }
 
-header {
-  grid-area: header;
-  /* background-color: aqua; */
-}
-footer {
-  grid-area: footer;
-  /* background-color: brown; */
-}
-main {
-  grid-area: main;
-  overflow-y: scroll;
-  display: flex;
-  justify-content: center;
-}
+  header {
+    grid-area: header;
+    /* background-color: aqua; */
+  }
+  footer {
+    grid-area: footer;
+    /* background-color: brown; */
+  }
+  main {
+    grid-area: main;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+  }
+  .home-page-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .burger-menu {
+    display: none;
+  }
 }
 
 
 @media only screen and (max-width: 600px) {//600px and below
+    main {
+    // grid-area: main;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+  }
+  .body {
+    display: none;
+  }
+  .home-page {
+    width: 90%;
+  }
   .header {
     display: flex;
     flex-direction: column;
@@ -147,16 +174,29 @@ padding: 1rem;
   }
 }
 
+
+
 .articles-main {
-  display: flex;
-  justify-content: space-around;
+  // display: flex;
+  // justify-content: space-around;
   text-align: center;
   article {
     background-color: #f7e9e9;
     h3 {
       color: #e3000c;
     }
-    width: 40%;
+    // width: 40%;
+    margin-bottom: 1rem;;
     padding: 1.5rem;
   }
+  p {
+    background-color: #f7e9e9;
+    h3 {
+      color: #e3000c;
+    }
+    // width: 40%;
+    margin-bottom: 1rem;;
+    padding: 1.5rem;
+  }
+  
 }

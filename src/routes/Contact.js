@@ -44,6 +44,11 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="email-form">
+        <head>
+          <title>Contact Alta Property Services</title>
+          <meta name="robots" content="index, follow" />
+          <meta name="description" content="Contact ALTA Property Services for further information"/>
+        </head>
         <h2>Contact Us</h2>
         <h4>
           Have a question or comment? Need a quote? Message us and we will get

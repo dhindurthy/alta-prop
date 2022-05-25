@@ -3,6 +3,11 @@ import React from "react";
 function RepairsandRehab(props) {
   return (
     <section className="service-page">
+      <head>
+        <title>Repairs Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content=""/>
+      </head>
       <section className="service-section">
         <h2 className="service-heading">
           INTERIOR /EXTERIOR MAINTENANCE & REPAIR

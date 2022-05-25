@@ -3,6 +3,11 @@ import React from "react";
 function About(props) {
   return (
     <section className="about-page">
+      <head>
+        <title>About Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Read about ALTA Property Services"  />
+      </head>
       <h3 className="about-headings">
         WE CAN PROVIDE ALL YOUR PROPERTY SERVICES
       </h3>

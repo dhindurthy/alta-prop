@@ -3,6 +3,11 @@ import React from "react";
 function TrashOut(props) {
   return (
     <section className="service-page">
+      <head>
+        <title>Trash out Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content=""/>
+      </head>
       <h2 className="service-heading">TRASH OUT & CLEANING</h2>
       <p className="service-description">
         With our dumpsters, trucks, and cleaning resources we can make your

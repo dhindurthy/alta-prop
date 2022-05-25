@@ -3,6 +3,11 @@ import React from "react";
 function Winterization(props) {
   return (
     <section className="service-page">
+      <head>
+        <title>Winterization Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content=""/>
+      </head>
       <h2 className="service-heading">WINTER / DE-WINTERIZATION</h2>
       <p className="service-description">
         You can count on us to ensure that your property is correctly

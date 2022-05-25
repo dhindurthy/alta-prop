@@ -1,0 +1,24 @@
+
+          <Link tabIndex="0" role="menuitem" to="/remediationservices">
+            // <img
+            //   className="navigable-image"
+            //   onClick={() => handleClick("/remediationservices")}
+            //   src="images/Remdiations.png"
+            //   alt=""
+            // />
+          </Link>
+
+          <img
+                  //   width="533"
+                  //   height="400"
+                  //   src="images/Mold-Remediation.jpg"
+                  //   alt="mold remedy"
+                  // />
+
+                  
+                  <img
+                    width="533"
+                    height="400"
+                    src="images/FireDeptweb.jpg"
+                    alt="fire-dept"
+                  />

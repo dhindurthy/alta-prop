@@ -55,10 +55,10 @@ export default class App extends React.Component {
               value: "/trashout",
               label: "Trash Out"
             },
-            {
+            /*{
               value: "/remediationservices",
               label: "Remediation Services"
-            },
+            },*/
             {
               value: "/landscaping",
               label: "Landscaping"
@@ -99,8 +99,32 @@ export default class App extends React.Component {
           value: "careers",
           label: "CAREERS"
         }
-      ]
+      ],
+      showMenu: false
     };
+     this.menuToggle = this.menuToggle.bind(this);
+     this.resize = this.resize.bind(this);
+  }
+  menuToggle () {
+    let showMenu = this.state.showMenu;
+    this.setState({
+      showMenu: !showMenu
+    });
+  }
+  componentDidMount () {
+    window.addEventListener("resize", this.resize.bind(this));
+    this.resize();
+  }
+  resize() {
+    if(window.innerWidth > 600) {
+      this.setState({showMenu: true});
+    } else {
+      this.setState({showMenu: false});
+    }
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener("resize", this.resize.bind(this));
   }
   render() {
     return (
@@ -114,7 +138,8 @@ export default class App extends React.Component {
                 src="images/LogoTransparent.png"
               />
             </Link>
-            <Menu menuData={this.state.menuData} />
+            <button className="burger-menu" onClick={this.menuToggle}>III</button>
+            {this.state.showMenu && <Menu menuData={this.state.menuData} />}
           </header>
           <main>
             <Route path="/home" component={Home} />

@@ -3,6 +3,11 @@ import React from "react";
 function SecuredServices(props) {
   return (
     <section className="service-page">
+      <head>
+        <title>Securing Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content=""/>
+      </head>
       <h2 className="service-heading">SECURED SERVICES</h2>
       <p className="service-description">
         We specialize in preservation services that professionally secure,

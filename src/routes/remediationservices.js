@@ -3,6 +3,11 @@ import React from "react";
 function RemediationServices(props) {
   return (
     <section className="service-page">
+      <head>
+        <title>Remediation Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content=""/>
+      </head>
       <h2 className="service-heading">REMEDIATION SERVICES</h2>
       <p className="service-description">
         We offer fast, reliable remediation services for water, mold, smoke and

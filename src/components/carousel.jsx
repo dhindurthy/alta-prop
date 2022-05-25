@@ -69,7 +69,7 @@ class Carousel extends React.Component {
           });
         }
         .bind(this),
-        3500
+        5000
       );
     }
   }
