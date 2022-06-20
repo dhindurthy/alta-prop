@@ -6,7 +6,9 @@ function SecuredServices(props) {
       <head>
         <title>Securing Services at Alta Property Services</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content=""/>
+        <meta name="description" content="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+      Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+      24/7 Emergency Service"/>
       </head>
       <h2 className="service-heading">SECURED SERVICES</h2>
       <p className="service-description">
@@ -26,32 +28,44 @@ function SecuredServices(props) {
       <div className="image-gallery">
         <img
           src="images/1.jpg"
-          alt=""
+          alt="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+          Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+          24/7 Emergency Service"
         />
 
         <img
           src="images/3.jpg"
-          alt=""
+          alt="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+          Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+          24/7 Emergency Service"
         />
 
         <img
           src="images/7.jpg"
-          alt=""
+          alt="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+          Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+          24/7 Emergency Service"
         />
 
         <img
           src="images/6.jpg"
-          alt=""
+          alt="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+          Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+          24/7 Emergency Service"
         />
 
         <img
           src="images/2.jpg"
-          alt=""
+          alt="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+          Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+          24/7 Emergency Service"
         />
 
         <img
           src="images/8.jpg"
-          alt=""
+          alt="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+          Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+          24/7 Emergency Service"
         />
       </div>
     </section>

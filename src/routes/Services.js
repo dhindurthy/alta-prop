@@ -114,7 +114,11 @@ function Services(props) {
               className="navigable-image"
               onClick={() => handleClick("/repairsandrehab")}
               src="images/Repairs-Rehabs.jpg"
-              alt=""
+              alt="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+              Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+              Senior or disability-friendly modifications and rehab, Outdoor rooms,
+              New or renovated office, shop, and retail space, Exterior building renovations,
+              Interior improvements including Senior or Disability accommodations"
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/securedservices">
@@ -122,7 +126,9 @@ function Services(props) {
               className="navigable-image"
               onClick={() => handleClick("/securedservices")}
               src="images/Secured.jpg"
-              alt=""
+              alt="Door frame/lock security reinforcements, Fitted panels of your choice for windows and doors,
+              Master/ re-key services, Outside security inspections, Real estate lock boxes installed,
+              24/7 Emergency Service"
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/trashout">
@@ -130,7 +136,8 @@ function Services(props) {
               className="navigable-image"
               onClick={() => handleClick("/trashout")}
               src="images/Trash-1.jpg"
-              alt=""
+              alt="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+              Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/winterization">
@@ -138,7 +145,9 @@ function Services(props) {
               className="navigable-image"
               onClick={() => handleClick("/winterization")}
               src="images/Winter.jpg"
-              alt=""
+              alt="Cap wires, plug gas & water lines Caution notifications placed throughout the property
+              Environmental friendly products, Pipe & pressure inspections ,
+              Piping system drained & air blown through, 24/7 SERVICE AVAILABLE"
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/landscaping">
@@ -146,7 +155,9 @@ function Services(props) {
               className="navigable-image"
               onClick={() => handleClick("/landscaping")}
               src="images/Land.jpg"
-              alt=""
+              alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+              Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+              Mulching, Shrub and hedge trimming, Spring/fall cleanup"
             />
           </Link>
           <Link tabIndex="0" role="menuitem" to="/snowremoval">
@@ -154,7 +165,8 @@ function Services(props) {
               className="navigable-image"
               onClick={() => handleClick("/snowremoval")}
               src="images/Snow.jpg"
-              alt=""
+              alt="24/7 EMERGENCY SERVICE,Driveways, parking lots, service roads, walkways,All property types,
+              On-site based crew, if needed, Salting, Salt purchase option"
             />
           </Link>
         </div>

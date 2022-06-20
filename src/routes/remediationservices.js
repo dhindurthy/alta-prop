@@ -6,7 +6,9 @@ function RemediationServices(props) {
       <head>
         <title>Remediation Services at Alta Property Services</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content=""/>
+        <meta name="description" content="Comprehensive inspection reports, Expert remediation services,Foundation cracks sealed,
+      Hazmat and mold certified,Mold, flood and other water damage,Licensed and highly trained technicians
+      Mitigation and structure drying,Reconstructing services"/>
       </head>
       <h2 className="service-heading">REMEDIATION SERVICES</h2>
       <p className="service-description">
@@ -31,32 +33,44 @@ function RemediationServices(props) {
       <div className="image-gallery">
         <img
           src="images/R7.jpg"
-          alt=""
+          alt="Comprehensive inspection reports, Expert remediation services,Foundation cracks sealed,
+          Hazmat and mold certified,Mold, flood and other water damage,Licensed and highly trained technicians
+          Mitigation and structure drying,Reconstructing services"
         />
 
         <img
           src="images/R6.jpg"
-          alt=""
+          alt="Comprehensive inspection reports, Expert remediation services,Foundation cracks sealed,
+          Hazmat and mold certified,Mold, flood and other water damage,Licensed and highly trained technicians
+          Mitigation and structure drying,Reconstructing services"
         />
 
         <img
           src="images/R5.jpg"
-          alt=""
+          alt="Comprehensive inspection reports, Expert remediation services,Foundation cracks sealed,
+          Hazmat and mold certified,Mold, flood and other water damage,Licensed and highly trained technicians
+          Mitigation and structure drying,Reconstructing services"
         />
 
         <img
           src="images/R4.jpg"
-          alt=""
+          alt="Comprehensive inspection reports, Expert remediation services,Foundation cracks sealed,
+          Hazmat and mold certified,Mold, flood and other water damage,Licensed and highly trained technicians
+          Mitigation and structure drying,Reconstructing services"
         />
 
         <img
           src="images/R3.jpg"
-          alt=""
+          alt="Comprehensive inspection reports, Expert remediation services,Foundation cracks sealed,
+          Hazmat and mold certified,Mold, flood and other water damage,Licensed and highly trained technicians
+          Mitigation and structure drying,Reconstructing services"
         />
 
         <img
           src="images/R1-768x768.jpg"
-          alt=""
+          alt="Comprehensive inspection reports, Expert remediation services,Foundation cracks sealed,
+          Hazmat and mold certified,Mold, flood and other water damage,Licensed and highly trained technicians
+          Mitigation and structure drying,Reconstructing services"
         />
       </div>
     </section>

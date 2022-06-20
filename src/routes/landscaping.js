@@ -6,7 +6,9 @@ function Landscaping(props) {
       <head>
         <title>Landscaping Services at Alta Property Services</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content=""/>
+        <meta name="description" content="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+         Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+         Mulching, Shrub and hedge trimming, Spring/fall cleanup"/>
       </head>
       <section className="service-section">
         <h2 className="service-heading">LANDSCAPING</h2>
@@ -44,42 +46,58 @@ function Landscaping(props) {
       <div className="image-gallery">
         <img
           src="images/1-3.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
 
         <img
           src="images/2-3.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
 
         <img
           src="images/3-2.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
 
         <img
           src="images/4-2.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
 
         <img
           src="images/7-2.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
 
         <img
           src="images/9.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
 
         <img
           src="images/10.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
 
         <img
           src="images/12.jpg"
-          alt=""
+          alt="Design & installation,All types of plantings; Shrubs, Trees, Flowers,
+          Sod, Patios & Walkways,Walls, Bug, fertilizer, and weed control,Debris pick up,Lawn mowing and edging,
+          Mulching, Shrub and hedge trimming, Spring/fall cleanup"
         />
       </div>
     </section>

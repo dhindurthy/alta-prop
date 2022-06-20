@@ -3,6 +3,12 @@ import React from "react";
 function ServiceArea(props) {
   return (
     <section>
+      <head>
+        <title>All Property Services at Alta Property Services</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="ALTA Property Services offers all kinfd of services like Landscaping, Snow Removal, Repairs and Rehab, Trash Out, Secured
+          Services, Winterization"/>
+      </head>
       <h3>ServiceArea Page</h3>
       <p className="heading">
         The below map shows the coverage area for our services. If you do not

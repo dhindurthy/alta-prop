@@ -6,7 +6,8 @@ function TrashOut(props) {
       <head>
         <title>Trash out Services at Alta Property Services</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content=""/>
+        <meta name="description" content="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+      Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"/>
       </head>
       <h2 className="service-heading">TRASH OUT & CLEANING</h2>
       <p className="service-description">
@@ -26,32 +27,38 @@ function TrashOut(props) {
       <div className="image-gallery">
         <img
           src="images/1-1.jpg"
-          alt=""
+          alt="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+          Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"
         />
 
         <img
           src="images/2-1.jpg"
-          alt=""
+          alt="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+          Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"
         />
 
         <img
           src="images/4.jpg"
-          alt=""
+          alt="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+          Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"
         />
 
         <img
           src="images/6-1.jpg"
-          alt=""
+          alt="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+          Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"
         />
 
         <img
           src="images/7-1.jpg"
-          alt=""
+          alt="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+          Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"
         />
 
         <img
           src="images/8-1.jpg"
-          alt=""
+          alt="Complete site demo and disposal Eco friendly products used, Foreclosure clean-outs
+          Hazardous waste clean up, Maid service, Recycling, Power washing, Small to huge jobs"
         />
       </div>
     </section>

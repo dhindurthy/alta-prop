@@ -6,7 +6,11 @@ function RepairsandRehab(props) {
       <head>
         <title>Repairs Services at Alta Property Services</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content=""/>
+        <meta name="description" content="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+        Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+        Senior or disability-friendly modifications and rehab, Outdoor rooms,
+        New or renovated office, shop, and retail space, Exterior building renovations,
+        Interior improvements including Senior or Disability accommodations"/>
       </head>
       <section className="service-section">
         <h2 className="service-heading">
@@ -57,42 +61,66 @@ function RepairsandRehab(props) {
       <div className="image-gallery">
         <img
           src="images/r1.jpg"
-          alt=""
+          alt="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+          Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+          Senior or disability-friendly modifications and rehab, Outdoor rooms,
+          New or renovated office, shop, and retail space, Exterior building renovations,
+          Interior improvements including Senior or Disability accommodations"
           width="800"
           height="800"
         />
 
         <img
           src="images/r2.jpg"
-          alt=""
+          alt="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+          Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+          Senior or disability-friendly modifications and rehab, Outdoor rooms,
+          New or renovated office, shop, and retail space, Exterior building renovations,
+          Interior improvements including Senior or Disability accommodations"
           width="800"
           height="800"
         />
 
         <img
           src="images/r3-360x360.jpg"
-          alt=""
+          alt="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+          Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+          Senior or disability-friendly modifications and rehab, Outdoor rooms,
+          New or renovated office, shop, and retail space, Exterior building renovations,
+          Interior improvements including Senior or Disability accommodations"
           width="800"
           height="800"
         />
 
         <img
           src="images/r4-360x360.jpg"
-          alt=""
+          alt="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+          Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+          Senior or disability-friendly modifications and rehab, Outdoor rooms,
+          New or renovated office, shop, and retail space, Exterior building renovations,
+          Interior improvements including Senior or Disability accommodations"
           width="800"
           height="800"
         />
 
         <img
           src="images/r5-768x768.jpg"
-          alt=""
+          alt="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+          Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+          Senior or disability-friendly modifications and rehab, Outdoor rooms,
+          New or renovated office, shop, and retail space, Exterior building renovations,
+          Interior improvements including Senior or Disability accommodations"
           width="800"
           height="800"
         />
 
         <img
           src="images/r6-768x768.jpg"
-          alt=""
+          alt="Bathrooms and Kitchens Drywall installation or repair Painting, Carpentry, Flooring, 
+          Roof repairs/new roofs, Kitchens and Bathrooms Attic and Basement conversions Additions Exterior Renovations
+          Senior or disability-friendly modifications and rehab, Outdoor rooms,
+          New or renovated office, shop, and retail space, Exterior building renovations,
+          Interior improvements including Senior or Disability accommodations"
           width="800"
           height="800"
         />

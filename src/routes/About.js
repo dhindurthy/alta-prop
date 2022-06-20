@@ -6,7 +6,8 @@ function About(props) {
       <head>
         <title>About Alta Property Services</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Read about ALTA Property Services"  />
+        <meta name="description" content="Read about ALTA Property Services which provides services like like Landscaping, Snow Removal, Repairs and Rehab, Trash Out, Secured
+            Services, Winterization"  />
       </head>
       <h3 className="about-headings">
         WE CAN PROVIDE ALL YOUR PROPERTY SERVICES
